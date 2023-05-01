@@ -254,8 +254,8 @@ function MyStyle() {
             {/* why are the costs */}
             <div style={{marginLeft: '31%',color: 'white',marginTop: '-21%', border: 'none'}}>
                 <span className={Glow.container} style={{width: '10vw',overflow: 'hidden'}}>
-                    <p className={Glow.glitch} dataText="Why are the Costs?" style={{fontSize: 21}} >Why are the Costs?</p>
-                    <p className={Glow.glow}>Why are the Costs?</p>
+                    <p className={Glow.glitch} dataText="Why are the Costs?" style={{fontSize: 21}} >Costs</p>
+                    <p className={Glow.glow}>Costs</p>
                 </span>
             </div>
             <div style={{marginLeft: '25%',color: 'white',marginTop: '-20%', width: '20vw', minHeight: '20vh',borderRadius: '20px',borderColor: 'orange'}}>

@@ -7,8 +7,7 @@ import extraStyles3 from '../styles/Glow.module.scss'
 
 export default function Procedure() {
     return (
-        <div>
-        <h1>Procedure</h1>
+        <div style={{background: 'black'}} >
         <RoadMap/>
         </div>
     );
@@ -52,8 +51,8 @@ function RoadMap() {
 
     return (
         <>
-    <div className={extraStyle.body}>
-      <h1 className={extraStyle.logo} style={{marginTop: '5%'}}>Solar explorer</h1>
+    <div className={extraStyle.body} style={{minHeight: '120vh'}}>
+      <h1 className={extraStyle.logo} style={{marginTop: '7%'}}>Solar explorer</h1>
 
       <input type="radio" id="pluto" name="planet" className={extraStyle.planet9} checked/>
       <label htmlFor="pluto" className={`${extraStyle.menu} ${extraStyle.pluto}`}>

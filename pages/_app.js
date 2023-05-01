@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Button,secContainer } from '@mantine/core';
 import { IconCurrencyDollar,IconInfoCircle,IconRocket,IconBrandGoogleHome}  from '@tabler/icons-react';
-import { motion } from 'framer-motion';
+import {Logo} from './Logo'
 
 function MyApp({ Component, pageProps }) {
   return (<>
@@ -15,7 +15,8 @@ function MyNav() {
   return (
         <Navbar bg="dark" variant='dark' expand="l" fixed='top'>
           <Container>
-            <Navbar.Brand style={{marginRight: '65%'}}>Neel Space Industries</Navbar.Brand>
+            <Logo/>
+            <Navbar.Brand style={{marginRight: '65%',color: '#00ccff'}}>Neel Space Industries</Navbar.Brand>
             <Navbar.Brand style={{textAlign: 'right'}}>Expand Navbar</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

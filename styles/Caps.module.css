@@ -1,0 +1,323 @@
+.body, .body::after, .body::before
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* background */
+.section
+{
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+
+    animation: parallax 30s cubic-bezier(.81,.01,.59,.98) infinite;
+
+    background: url('https://live.staticflickr.com/65535/51964423870_019eb85871_o.png');
+    background-color: rgba(0,0,0,1);
+}
+
+/* container */
+.section article
+{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    animation: chrome 5s linear infinite;
+
+    opacity: .5;
+            background: linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+
+    -webkit-background: linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+       -moz-background: linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+        -ms-background: linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+         -o-background: linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: luminosity;
+}
+
+/* planet */
+.article div:nth-of-type(1)
+{
+    width: 300px;
+    height: 300px;
+
+    -webkit-animation: chrome 5s linear infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+       -moz-animation: chrome 5s linear infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+        -ms-animation: chrome 5s linear infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+         -o-animation: chrome 5s linear infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+            animation: chrome 5s linear infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+
+    border: solid rgba(255,255,255,.5) 1px;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: url('https://live.staticflickr.com/65535/51963860641_8a65596d34_o.png') no-repeat center fixed, linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+
+    mix-blend-mode: hard-light;
+    -webkit-background: url('https://live.staticflickr.com/65535/51963860641_8a65596d34_o.png') no-repeat center fixed, linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+       -moz-background: url('https://live.staticflickr.com/65535/51963860641_8a65596d34_o.png') no-repeat center fixed, linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+        -ms-background: url('https://live.staticflickr.com/65535/51963860641_8a65596d34_o.png') no-repeat center fixed, linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+         -o-background: url('https://live.staticflickr.com/65535/51963860641_8a65596d34_o.png') no-repeat center fixed, linear-gradient(45deg, blue 10%, red 60%, yellow 100%);
+}
+
+/* lightings */
+.article div:nth-of-type(2)
+{
+    position: absolute;
+    z-index: -1;
+
+    width: 350px;
+    height: 350px;
+
+    -webkit-animation: blink 1.5s ease-in-out infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+       -moz-animation: blink 1.5s ease-in-out infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+        -ms-animation: blink 1.5s ease-in-out infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+         -o-animation: blink 1.5s ease-in-out infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+            animation: blink 1.5s ease-in-out infinite, perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: rgba(255,255,255,1); /* ✑ shade*/
+
+    -webkit-filter: drop-shadow(0 0 2rem white) blur(30px);
+            filter: drop-shadow(0 0 2rem white) blur(30px);
+}
+.article div:nth-of-type(2):before
+{
+    position: inherit;
+    top: 10px;
+    left: -150px;
+
+    width: 450px;
+    height: 300px;
+
+    content: '';
+    -webkit-transform: rotate(-20deg);
+       -moz-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+         -o-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    animation: blink .5s linear infinite;
+
+    border-top: 20px white solid;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: rgba(255,255,255,.1); /* ✑ shade*/
+
+    -webkit-filter: drop-shadow(0 0 2rem white) blur(30px);
+            filter: drop-shadow(0 0 2rem white) blur(30px);
+}
+.article div:nth-of-type(2):after
+{
+    position: inherit;
+    top: 85px;
+    left: -80px;
+
+    width: 450px;
+    height: 300px;
+
+    content: '';
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    animation: blink .5s linear infinite;
+
+    border-top: 20px white solid;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: rgba(255,255,255,.1); /* ✑ shade*/
+
+    -webkit-filter: drop-shadow(0 0 2rem white) blur(30px);
+            filter: drop-shadow(0 0 2rem white) blur(30px);
+}
+
+/* tail blaze*/
+.article div:nth-of-type(3)
+{
+    position: absolute;
+    z-index: -1;
+
+    width: 250px;
+    height: 250px;
+
+    -webkit-animation: perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+       -moz-animation: perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+        -ms-animation: perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+         -o-animation: perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+            animation: perspective 30s cubic-bezier(.81,.01,.59,.98) infinite;
+
+    opacity: .5 ;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: white;
+
+    -webkit-filter: drop-shadow(0 0 2rem white) blur(10px);
+            filter: drop-shadow(0 0 2rem white) blur(10px);
+}
+.article div:nth-of-type(3):before
+{
+    position: inherit;
+    top: 40rem;
+    left: -77.5rem;
+
+    width: 1500px;
+    height: 100px;
+
+    content: '';
+    -webkit-animation: tail-move .8s linear infinite;
+       -moz-animation: tail-move .8s linear infinite;
+        -ms-animation: tail-move .8s linear infinite;
+         -o-animation: tail-move .8s linear infinite;
+            animation: tail-move .8s linear infinite;
+
+    opacity: .9; /* ✑ tail*/
+    -webkit-border-radius: 100% 0 0 100%;
+       -moz-border-radius: 100% 0 0 100%;
+            border-radius: 100% 0 0 100%;
+    background: linear-gradient(135deg, transparent 0, white 100%);
+
+            filter: drop-shadow(0 0 2rem white);
+    -webkit-filter: drop-shadow(0 0 2rem white);
+}
+.article div:nth-of-type(3):after
+{
+    position: inherit;
+    top: 8rem;
+    left: -10rem;
+
+    width: 400px;
+    height: 200px;
+
+    content: '';
+    -webkit-animation: trail-move .05s linear infinite ;
+       -moz-animation: trail-move .05s linear infinite ;
+        -ms-animation: trail-move .05s linear infinite ;
+         -o-animation: trail-move .05s linear infinite ;
+            animation: trail-move .05s linear infinite ;
+
+    opacity: 1; /* ✑ blaze*/
+    -webkit-border-radius: 100% 0 0 100%;
+       -moz-border-radius: 100% 0 0 100%;
+            border-radius: 100% 0 0 100%;
+    background: white;
+
+    -webkit-filter: drop-shadow(0 0 2rem white) blur(10px);
+            filter: drop-shadow(0 0 2rem white) blur(10px);
+}
+
+/*
+▀▄▀▄▀▄▀▄▀▄▀▄ ANIMATIONS ▀▄▀▄▀▄▀▄▀▄▀▄
+*/
+
+@keyframes blink
+{
+    from,
+    to
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: .5;
+    }
+}
+@keyframes chrome
+{
+    to
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+@keyframes parallax
+{
+    0%,
+    50%,
+    100%
+    {
+        background-position: top 0 left 0;
+    }
+    25%
+    {
+        background-position: top 25rem left 3.125rem;
+    }
+    75%
+    {
+        background-position: top -6.25rem left -25rem;
+    }
+}
+@keyframes perspective
+{
+    0%,
+    50%,
+    100%
+    {
+        transform: scale(1)  translate3d(0, 0, 0);
+    }
+    25%
+    {
+        transform: scale(.6) translate3d(-15.625rem, -1.5625rem, 0)  rotate(9deg);
+    }
+    75%
+    {
+        transform: scale(.6) translate3d(15.625rem, 1.5625rem, 0) rotate(9deg);
+    }
+}
+@keyframes tail-move
+{
+    from,
+    to
+    {
+        transform: scaley(1.0)  rotate(-40deg);
+    }
+    50%
+    {
+        transform: scaley(1.5)  rotate(-29deg);
+    }
+}
+@keyframes trail-move
+{
+    0%,
+    50%,
+    100%
+    {
+        transform: scaley(1.0)  rotate(-45deg);
+    }
+    25%,
+    75%
+    {
+        transform: scaley(1.1)  rotate(-35deg);
+    }
+}
+
+/* media queries */
+/* 4K Ultra HD */
+@media only screen and (min-width: 1921px)
+{
+    .body section
+    {
+        background: url('https://live.staticflickr.com/65535/51964423855_56ab571d67_o.png');
+    }
+}
+
+/* 8K Ultra HD */
+@media only screen and (min-width: 3841px)
+{
+    .body section
+    {
+        background: url('https://live.staticflickr.com/65535/51963860671_3f18e620bf_o.png');
+    }
+}

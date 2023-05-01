@@ -2,9 +2,11 @@ import { Carousel } from '@mantine/carousel';
 import styles from '../styles/Home.module.css'
 import extrastyles from '../styles/Space2.module.scss';
 import Glow from '../styles/Glow.module.scss';
-import { useMediaQuery } from '@mantine/hooks';
+import { useMediaQuery,useDisclosure } from '@mantine/hooks';
 import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem,Modal,Group } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { useInView,motion,useAnimation } from 'framer-motion'
+import { useRef,useEffect } from 'react';
+
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -33,7 +35,6 @@ const useStyles = createStyles((theme) => ({
     textTransform: 'uppercase',
   },
 }));
-
 
 function Card({ image, title, category,overview,keyfeature }) {
     const [opened, { open, close }] = useDisclosure(false);
@@ -167,6 +168,10 @@ const data = [
 ];
 
 function Demo() {
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+    const animation = useAnimation()
+    const animation2 = useAnimation()
     const theme = useMantineTheme();
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
     const slides = data.map((item) => (
@@ -175,8 +180,33 @@ function Demo() {
     </Carousel.Slide>
   ));
 
+  useEffect(() => {
+    if (isInView){
+            animation.start({
+                x:0,
+                transition: {
+                    type: 'tween',damping: 7,stiffness: 50, repeat: null,duration: 1.5
+                }
+            })
+            animation2.start({
+                x:0,
+                transition: {
+                    type: 'tween',damping: 7,stiffness: 50, repeat: null,duration: 1.5
+                }
+            })
+    }else if (!isInView){
+            animation.start({x:'100vw'})
+            animation2.start({x:'-100vw'})
+    }
+
+    console.log("Element is in view: ", isInView)
+  }, [isInView])
+
   return (
-    <div>
+    <div ref={ref} style={{overflow: 'hidden'}}>
+        <motion.div animate={animation} style={{marginBottom: '10%'}}>
+                 <h1 style={{color: 'white',textAlign: 'center'}}>THE VEHICLES</h1>
+        </motion.div>    
         <Carousel
         withIndicators
         loop
@@ -198,7 +228,7 @@ export default function Cost() {
             <div className={extrastyles.mybody+ ' '+extrastyles.space}>
                 <MyStyle/>  
             </div>
-            <div style={{background: 'black',padding: '20%'}}>
+            <div style={{background: 'black',padding: '10%'}}>
                 <Demo/>
             </div>
         </div>

@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import extraStyles from '../styles/Space.module.scss';
+import extraStyle2 from '../styles/Weird.module.css'
+import { useState, useEffect,useRef } from "react";
+import { useInView,motion,useAnimation } from 'framer-motion'
+import { Text } from '@mantine/core';
+import extraStyles3 from '../styles/Astro.module.css'
 
 export default function Home() {
   return (
@@ -11,30 +16,117 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MyStyle/>
-        
-      <footer>
-        
-      </footer>
     </div>
   )
 }
 
+function Astro(){
+  return(
+  <div className={extraStyles3.backg}>
+  <div className={extraStyles3.planet}>
+    <div className={extraStyles3.r1}></div>
+    <div className={extraStyles3.r2}></div>
+    <div className={extraStyles3.r3}></div>
+    <div className={extraStyles3.r4}></div>
+    <div className={extraStyles3.r5}></div>
+    <div className={extraStyles3.r6}></div>
+    <div className={extraStyles3.r7}></div>
+    <div className={extraStyles3.r8}></div>
+    <div className={extraStyles3.shad}></div>
+  </div>
+  <div className={extraStyles3.stars}>
+    <div className={extraStyles3.s1}></div>
+    <div className={extraStyles3.s2}></div>
+    <div className={extraStyles3.s3}></div>
+    <div className={extraStyles3.s4}></div>
+    <div className={extraStyles3.s5}></div>
+    <div className={extraStyles3.s6}></div>
+  </div>
+  <div className={extraStyles3.an}>
+    <div className={extraStyles3.tank}></div>
+    <div className={extraStyles3.astro}>
+      <div className={extraStyles3.helmet}>
+        <div className={extraStyles3.glass}>
+          <div className={extraStyles3.shine}></div>
+        </div>
+      </div>
+      <div className={extraStyles3.dress}>
+        <div className={extraStyles3.c}>
+          <div className={extraStyles3.btn1}></div>
+          <div className={extraStyles3.btn2}></div>
+          <div className={extraStyles3.btn3}></div>
+          <div className={extraStyles3.btn4}></div>
+        </div>
+      </div>
+      <div className={extraStyles3.handl}>
+        <div className={extraStyles3.handl1}>
+          <div className={extraStyles3.glovel}>
+            <div className={extraStyles3.thumbl}></div>
+            <div className={extraStyles3.b2}></div>
+          </div>
+        </div>
+      </div>
+      <div className={extraStyles3.handr}>
+        <div className={extraStyles3.handr1}>
+          <div className={extraStyles3.glover}>
+            <div className={extraStyles3.thumbr}></div>
+            <div className={extraStyles3.b1}></div>
+          </div>
+        </div>
+      </div>
+      <div className={extraStyles3.legl}>
+        <div className={extraStyles3.bootl1}>
+          <div className={extraStyles3.bootl2}></div>
+        </div>
+      </div>
+      <div className={extraStyles3.legr}>
+        <div className={extraStyles3.bootr1}>
+          <div className={extraStyles3.bootr2}></div>
+        </div>
+      </div>
+      <div className={extraStyles3.pipe}>
+        <div className={extraStyles3.pipe2}>
+          <div className={extraStyles3.pipe3}></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>)
+}
+
 function Content() {
+
   return (
     <div style={{marginTop: '5%'}}>
       <h1 className={styles.title}>
-        <p>Welcome To Neel Space Industries</p>
+        <p className={extraStyle2.animateCharcter} style={{fontFamily: 'monospace'}}>Welcome To Neel Space Industries</p>
       </h1>
-      <p style={{textAlign: 'center'}}>
-          Here is some information 
-      </p>
+      <div style={{display: 'flex'}}>
+        <Text style={{textAlign: 'left',minWidth: '40%',maxWidth: '40%',margin: '5%'}}>
+        Introducing Neel Space Industries – the premier company for turning civilians into futuristic astronauts!<br/><br/>
+
+At Neel Space Industries, we're dedicated to helping everyday people achieve their dream of exploring the final frontier. Our team of experienced space professionals will guide you through the entire process, from initial training to actual spaceflight.<br/><br/>
+
+We offer a variety of training programs to suit your needs, ranging from basic astronaut training to more advanced programs that prepare you for extended missions in space. Our state-of-the-art facilities ensure that you receive the best possible training and equipment.<br/><br/>
+
+Our fleet of spacecraft is among the most advanced in the industry, equipped with cutting-edge technology that ensures your safety and comfort during your spaceflight. Whether you're looking for a short trip to orbit or a longer mission to the moon or beyond, Neel Space Industries has the perfect solution for you.<br/><br/>
+
+But we're more than just a spaceflight company. At Neel Space Industries, we're committed to advancing the field of space exploration and developing new technologies that will make spaceflight accessible to more people than ever before.<br/><br/>
+
+So what are you waiting for? Contact us today to learn more about our training programs and spaceflight opportunities. Join the ranks of the elite astronauts of tomorrow with Neel Space Industries!
+        </Text>
+        <motion.div animate={{opacity: 1}} transition={{delay: 2,duration: 5}} initial={{opacity: 0}}>
+                  <Astro/>
+        </motion.div>
+      </div>
+      
     </div>
   )
 }
 
 function MyStyle() {
   return (
-    <div className={extraStyles.stars}>
+    <div className={extraStyles.stars}  style={{overflow: 'hidden'}}>
           <div className={extraStyles.twinkling}>
             <div className={extraStyles.clouds}>
               <Content/>

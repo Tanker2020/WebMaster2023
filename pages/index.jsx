@@ -99,19 +99,19 @@ function Content() {
   return (
     <div style={{marginTop: '5%'}}>
       <h1 className={styles.title}>
-        <p className={extraStyle2.animateCharcter} style={{fontFamily: 'monospace'}}>Welcome To Neel Space Industries</p>
+        <p className={extraStyle2.animateCharcter} style={{fontFamily: 'monospace'}}>{"Welcome To Neel Space Industries"}</p>
       </h1>
       <div style={{display: 'flex'}}>
         <Text style={{textAlign: 'left',minWidth: '40%',maxWidth: '40%',margin: '5%'}}>
-        {'Introducing Neel Space Industries – the premier company for turning civilians into futuristic astronauts!'}<br/><br/>
+        {"Introducing Neel Space Industries the premier company for turning civilians into futuristic astronauts!"}<br/><br/>
 
-{"At Neel Space Industries, we're dedicated to helping everyday people achieve their dream of exploring the final frontier. Our team of experienced space professionals will guide you through the entire process, from initial training to actual spaceflight."}<br/><br/>
+{"At Neel Space Industries, we are dedicated to helping everyday people achieve their dream of exploring the final frontier. Our team of experienced space professionals will guide you through the entire process, from initial training to actual spaceflight."}<br/><br/>
 
 {"We offer a variety of training programs to suit your needs, ranging from basic astronaut training to more advanced programs that prepare you for extended missions in space. Our state-of-the-art facilities ensure that you receive the best possible training and equipment."}<br/><br/>
 
-{"Our fleet of spacecraft is among the most advanced in the industry, equipped with cutting-edge technology that ensures your safety and comfort during your spaceflight. Whether you're looking for a short trip to orbit or a longer mission to the moon or beyond, Neel Space Industries has the perfect solution for you."}<br/><br/>
+{"Our fleet of spacecraft is among the most advanced in the industry, equipped with cutting-edge technology that ensures your safety and comfort during your spaceflight. Whether you are looking for a short trip to orbit or a longer mission to the moon or beyond, Neel Space Industries has the perfect solution for you."}<br/><br/>
 
-{"But we're more than just a spaceflight company. At Neel Space Industries, we're committed to advancing the field of space exploration and developing new technologies that will make spaceflight accessible to more people than ever before."}<br/><br/>
+{"But we are more than just a spaceflight company. At Neel Space Industries, we are committed to advancing the field of space exploration and developing new technologies that will make spaceflight accessible to more people than ever before."}<br/><br/>
 
 {"So what are you waiting for? Contact us today to learn more about our training programs and spaceflight opportunities. Join the ranks of the elite astronauts of tomorrow with Neel Space Industries!"}
         </Text>

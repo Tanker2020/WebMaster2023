@@ -1,3 +1,4 @@
+/*eslint-disable react/no-unescaped-entities*/
 import { Carousel } from '@mantine/carousel';
 import styles from '../styles/Home.module.css'
 import extrastyles from '../styles/Space2.module.scss';

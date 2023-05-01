@@ -1,3 +1,4 @@
+/*eslint-disable react/no-unescaped-entities*/
 import styles from '../styles/SpaceMovement.module.scss'
 export default function About() {
     return (

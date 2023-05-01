@@ -1,3 +1,4 @@
+/*eslint-disable react/no-unescaped-entities*/
 import extraStyle2 from '../styles/Caps.module.css'
 import extraStyle from '../styles/Final.module.scss'
 import { useState } from 'react';

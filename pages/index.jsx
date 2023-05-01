@@ -98,7 +98,7 @@ function Astro(){
 function Content() {
 
   return (
-    <div style={{marginTop: '5%'}}>
+    <div style={{marginTop: '5%',padding: '10%'}}>
       <h1 className={styles.title}>
         <p className={extraStyle2.animateCharcter} style={{fontFamily: 'monospace'}}>{"Welcome To Neel Space Industries"}</p>
       </h1>
@@ -127,7 +127,7 @@ function Content() {
 
 function MyStyle() {
   return (
-    <div className={extraStyles.stars}  style={{overflow: 'hidden'}}>
+    <div className={extraStyles.stars}  style={{overflow: 'scroll'}}>
           <div className={extraStyles.twinkling}>
             <div className={extraStyles.clouds}>
               <Content/>

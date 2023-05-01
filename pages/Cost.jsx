@@ -238,17 +238,17 @@ export default function Cost() {
 
 function MyStyle() {
     return (
-        <div className={extrastyles.solarSystem}>
+        <div className={extrastyles.solarSystem} style={{minHeight:'200vh'}}>
 
             {/* types of vehicles and their costs */}
-            <div style={{marginLeft: '-38%',color: 'white',marginTop: '-21%', border: 'none',}}>
+            <div style={{marginLeft: '-38%',color: 'white',marginTop: '-36%', border: 'none',}}>
                 <span className={Glow.container} style={{width: '12vw',overflow: 'hidden'}}>
                     <p className={Glow.glitch} dataText="Vehicle Info" style={{fontSize: 22}} >Vehicle Info</p>
                     <p className={Glow.glow}>Vehicle Info</p>
                 </span>
             </div>
-            <div style={{marginLeft: '-45%',color: 'white',marginTop: '-20%', width: '20vw', minHeight: '20vh',borderRadius: '20px',borderColor: 'orange'}}>
-                <p style={{padding: '5%'}}>
+            <div style={{marginLeft: '-45%',color: 'white',marginTop: '-35%', width: '20vw', minHeight: '20vh',borderRadius: '20px',borderColor: 'orange'}}>
+                <p style={{padding: '5%',wordWrap: 'break-word'}}>
 {"The space vehicles described here encompass a diverse range of purposes, from exploration and transportation to habitation and cargo hauling. These innovative spacecraft are equipped with advanced technology and designed for optimal performance in the challenging environment of space, ensuring that they meet the needs of their specific missions while maintaining safety and sustainability."}</p>
             </div>
             {/* why are the costs */}

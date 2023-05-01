@@ -127,7 +127,7 @@ function Content() {
 
 function MyStyle() {
   return (
-    <div className={extraStyles.stars}  style={{overflow: 'scroll'}}>
+    <div className={extraStyles.stars}  style={{overflow: 'scroll',minHeight: '150vh'}}>
           <div className={extraStyles.twinkling}>
             <div className={extraStyles.clouds}>
               <Content/>

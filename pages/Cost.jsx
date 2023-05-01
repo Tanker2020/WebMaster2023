@@ -238,7 +238,7 @@ export default function Cost() {
 
 function MyStyle() {
     return (
-        <div className={extrastyles.solarSystem} style={{minHeight:'200vh'}}>
+        <div className={extrastyles.solarSystem} style={{minHeight:'220vh'}}>
 
             {/* types of vehicles and their costs */}
             <div style={{marginLeft: '-38%',color: 'white',marginTop: '-36%', border: 'none',}}>
@@ -259,7 +259,7 @@ function MyStyle() {
                 </span>
             </div>
             <div style={{marginLeft: '25%',color: 'white',marginTop: '-20%', width: '20vw', minHeight: '20vh',borderRadius: '20px',borderColor: 'orange'}}>
-                <p style={{padding: '5%'}}>{"The cost estimates for the space vehicles consider various aspects, including complexity, technological advancements, and intended use. Vehicles with intricate systems, such as fusion propulsion or artificial gravity, require more sophisticated technology, increasing costs. Pioneering technologies like AI-assisted flight control or quantum communication demand significant research and development investment. Vehicles designed for specialized purposes, such as high-speed space racing or long-duration habitation, need unique features and capabilities that drive up costs. Additionally, advanced materials, specialized components, and complex assembly processes contribute to the production costs of these vehicles. The size and capacity of the vehicles, such as passenger or cargo capacity, also impact overall costs due to the increased materials and engineering requirements."}</p>
+                <p style={{padding: '5%'}}>{"The cost estimates consider factors that vary due to unique aspects such as complexity, technology, and intended use, with sophisticated systems and pioneering technologies increasing costs. Vehicles with intricate systems, such as fusion propulsion or artificial gravity, require more sophisticated technology, resulting in increasing costs. Pioneering technologies like AI-assisted flight control or quantum communication demand significant research and development investment. The size and capacity as well as specialized vehicles with unique features and capacities also drive up costs due to advanced materials, specialized components, and complex assembly processes. "}</p>
             </div>
             {/* vehicle images */}
             <div style={{marginLeft: '-38%',color: 'white',marginTop: '-1%', border: 'none',}}>
@@ -269,7 +269,7 @@ function MyStyle() {
                 </span>
             </div>
             <div style={{marginLeft: '-45%',color: 'white', width: '20vw', minHeight: '20vh',borderRadius: '20px',borderColor:'orange'}}>
-                <p style={{margin: '5%',fontSize: 14}}> {"Designed for aspiring space travelers, our comprehensive and immersive training experience provides the essential skills needed for an unforgettable journey beyond Earth's atmosphere. Our program covers academic foundations in subjects like engineering, physics, astronomy, and geology, as well as physical conditioning to build strength, endurance, and flexibility. You'll learn spacecraft operations through hands-on training with state-of-the-art simulators, master extravehicular activities (EVA) skills in advanced training facilities, and develop crucial survival skills for emergency situations. Our program also emphasizes team building and communication through group exercises, simulations, and problem-solving tasks to ensure effective collaboration with fellow astronauts. Finally, you'll participate in realistic mission simulations that replicate the challenges and excitement of a genuine space mission, preparing you for the ultimate space adventure."}</p>
+                <p style={{margin: '5%',fontSize: 15}}> {"Prepare for an unforgettable space journey with our immersive training program. Covering academic foundations in physics, engineering, geology, and astronomy, as well as physical conditioning, our comprehensive program develops the essential skills for space travel. Experience hands-on spacecraft operation, master extravehicular activities, and learn crucial survival skills. Build teamwork and communication through group exercises and simulations, and participate in realistic mission simulations to prepare for space missions. Our program ensures effective collaboration with fellow astronauts, providing you with the necessary skills for the ultimate space adventure beyond Earth's atmosphere."}</p>
             </div>
 
 

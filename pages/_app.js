@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import { Button,secContainer } from '@mantine/core';
+import { Button } from '@mantine/core';
 import { IconCurrencyDollar,IconInfoCircle,IconRocket,IconBrandGoogleHome}  from '@tabler/icons-react';
-import {Logo} from './Logo'
+import Logo from './Logo'
 
 function MyApp({ Component, pageProps }) {
   return (<>

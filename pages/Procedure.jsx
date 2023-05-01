@@ -127,7 +127,7 @@ function RoadMap() {
         </div>
       </label>
       <p style={{color:'white',textAlign: 'center',marginTop: '10%',marginLeft: '40%',maxWidth: '20%'}}>{data}</p>
-      <Image style={{marginTop: '-15%',marginLeft: '70%',maxWidth: '20%',minWidth:'10%'}} src={img} /> 
+      <Image style={{marginTop: '-15%',marginLeft: '70%',maxWidth: '20%',minWidth:'10%'}} src={img} alt="Broken Image"/> 
     </div>
     <div style={{overflow: 'hidden'}}>        
         <section className={extraStyle2.section}>

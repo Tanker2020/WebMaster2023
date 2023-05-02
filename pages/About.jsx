@@ -122,21 +122,21 @@ function SpaceBackground(){
                         <button onClick={onButtonClick}>
                             DOWNLOAD WORKLOG AND STUDENT CHECKLIST PDF
                         </button>
-                        <li><a href='https://space.nss.org/stanford-torus-space-settlement/'>https://space.nss.org/stanford-torus-space-settlement/</a></li>
-                        <li><a href='https://www.pinterest.com/pin/453245149983245632/'>https://www.pinterest.com/pin/453245149983245632/</a></li>
-                        <li><a href='https://starcitizen.tools/32-SCU_container'>https://starcitizen.tools/32-SCU_container</a></li>
-                        <li><a href='https://www.behance.net/gallery/85204035/MR-02-Tactical'>https://www.behance.net/gallery/85204035/MR-02-Tactical</a></li>
-                        <li><a href='https://www.pinterest.com/pin/rsiperseuspromo-13-perseus-star-citizen-wiki--830210512560563260/'>https://www.pinterest.com/pin/rsiperseuspromo-13-perseus-star-citizen-wiki--830210512560563260/</a></li>
-                        <li><a href='https://starcitizen.tools/Kraken'>https://starcitizen.tools/Kraken</a></li>
-                        <li><a href='https://images.fineartamerica.com/images-medium-large-5/mercury-planet-bernard-michel.jpg'>https://images.fineartamerica.com/images-medium-large-5/mercury-planet-bernard-michel.jpg</a></li>
-                        <li><a href='https://storage.googleapis.com/pod_public/1300/120926.jpg'>https://storage.googleapis.com/pod_public/1300/120926.jpg</a></li>
-                        <li><a href='https://hdwallpaperim.com/wp-content/uploads/2017/08/22/447893-space-planet-digital_art-space_art.jpg'>https://hdwallpaperim.com/wp-content/uploads/2017/08/22/447893-space-planet-digital_art-space_art.jpg</a></li>
-                        <li><a href='https://cdn.shopify.com/s/files/1/1568/8443/products/main_Glowing_Planet_Mars_Wall_Art.jpg?crop=center&height=1024&v=1649201884&width=1024'>https://cdn.shopify.com/s/files/1/1568/8443/products/main_Glowing_Planet_Mars_Wall_Art.jpg?crop=center&height=1024&v=1649201884&width=1024</a></li>
-                        <li><a href='https://rare-gallery.com/uploads/posts/967166-space-Jupiter-sun-rays-red-Endless-Space-space-art.jpg'>https://rare-gallery.com/uploads/posts/967166-space-Jupiter-sun-rays-red-Endless-Space-space-art.jpg</a></li>
-                        <li><a href='https://cdn.shopify.com/s/files/1/1568/8443/products/main_View_Of_Planet_Saturn_Wall_Art.jpg?crop=center&height=1024&v=1650219964&width=1024'>https://cdn.shopify.com/s/files/1/1568/8443/products/main_View_Of_Planet_Saturn_Wall_Art.jpg?crop=center&height=1024&v=1650219964&width=1024</a></li>
-                        <li><a href='https://images.fineartamerica.com/images-medium-large/artwork-of-uranus-julian-baum.jpg'>https://images.fineartamerica.com/images-medium-large/artwork-of-uranus-julian-baum.jpg</a></li>
-                        <li><a href='https://cdn.shopify.com/s/files/1/0074/0497/8227/products/Neptune_THUMB.png?v=1558471776'>https://cdn.shopify.com/s/files/1/0074/0497/8227/products/Neptune_THUMB.png?v=1558471776</a></li>
-                        <li><a href='https://img5.goodfon.com/wallpaper/nbig/a/fe/science-fiction-visual-effects-galaxy-universe-fresh-viewp-7.jpg'>https://img5.goodfon.com/wallpaper/nbig/a/fe/science-fiction-visual-effects-galaxy-universe-fresh-viewp-7.jpg</a></li>
+                        <li><a href='https://space.nss.org/stanford-torus-space-settlement/ ' target="_blank">https://space.nss.org/stanford-torus-space-settlement/</a></li>
+                        <li><a href='https://www.pinterest.com/pin/453245149983245632/' target="_blank">https://www.pinterest.com/pin/453245149983245632/</a></li>
+                        <li><a href='https://starcitizen.tools/32-SCU_container' target="_blank">https://starcitizen.tools/32-SCU_container</a></li>
+                        <li><a href='https://www.behance.net/gallery/85204035/MR-02-Tactical' target="_blank">https://www.behance.net/gallery/85204035/MR-02-Tactical</a></li>
+                        <li><a href='https://www.pinterest.com/pin/rsiperseuspromo-13-perseus-star-citizen-wiki--830210512560563260/' target="_blank">https://www.pinterest.com/pin/rsiperseuspromo-13-perseus-star-citizen-wiki--830210512560563260/</a></li>
+                        <li><a href='https://starcitizen.tools/Kraken' target="_blank">https://starcitizen.tools/Kraken</a></li>
+                        <li><a href='https://images.fineartamerica.com/images-medium-large-5/mercury-planet-bernard-michel.jpg' target="_blank">https://images.fineartamerica.com/images-medium-large-5/mercury-planet-bernard-michel.jpg</a></li>
+                        <li><a href='https://storage.googleapis.com/pod_public/1300/120926.jpg' target="_blank">https://storage.googleapis.com/pod_public/1300/120926.jpg</a></li>
+                        <li><a href='https://hdwallpaperim.com/wp-content/uploads/2017/08/22/447893-space-planet-digital_art-space_art.jpg' target="_blank">https://hdwallpaperim.com/wp-content/uploads/2017/08/22/447893-space-planet-digital_art-space_art.jpg</a></li>
+                        <li><a href='https://cdn.shopify.com/s/files/1/1568/8443/products/main_Glowing_Planet_Mars_Wall_Art.jpg?crop=center&height=1024&v=1649201884&width=1024' target="_blank">https://cdn.shopify.com/s/files/1/1568/8443/products/main_Glowing_Planet_Mars_Wall_Art.jpg?crop=center&height=1024&v=1649201884&width=1024</a></li>
+                        <li><a href='https://rare-gallery.com/uploads/posts/967166-space-Jupiter-sun-rays-red-Endless-Space-space-art.jpg' target="_blank">https://rare-gallery.com/uploads/posts/967166-space-Jupiter-sun-rays-red-Endless-Space-space-art.jpg</a></li>
+                        <li><a href='https://cdn.shopify.com/s/files/1/1568/8443/products/main_View_Of_Planet_Saturn_Wall_Art.jpg?crop=center&height=1024&v=1650219964&width=1024' target="_blank">https://cdn.shopify.com/s/files/1/1568/8443/products/main_View_Of_Planet_Saturn_Wall_Art.jpg?crop=center&height=1024&v=1650219964&width=1024</a></li>
+                        <li><a href='https://images.fineartamerica.com/images-medium-large/artwork-of-uranus-julian-baum.jpg' target="_blank">https://images.fineartamerica.com/images-medium-large/artwork-of-uranus-julian-baum.jpg</a></li>
+                        <li><a href='https://cdn.shopify.com/s/files/1/0074/0497/8227/products/Neptune_THUMB.png?v=1558471776' target="_blank">https://cdn.shopify.com/s/files/1/0074/0497/8227/products/Neptune_THUMB.png?v=1558471776</a></li>
+                        <li><a href='https://img5.goodfon.com/wallpaper/nbig/a/fe/science-fiction-visual-effects-galaxy-universe-fresh-viewp-7.jpg' target="_blank">https://img5.goodfon.com/wallpaper/nbig/a/fe/science-fiction-visual-effects-galaxy-universe-fresh-viewp-7.jpg</a></li>
                         </ul>
                     </Accordion.Panel>
                 </Accordion.Item>

@@ -3,20 +3,8 @@
   width: 100%;
   height: 100vh;
   background-color: black;
-  overflow: hidden;
-  
-  .starsWrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, transparent, #00000044, transparent);
-    background-size: 100% 100%;
-    animation: wind 5s linear infinite;
-  }
+  overflow-x: hidden;
+  overflow-y: auto;
 
   .star {
     position: absolute;
@@ -69,14 +57,5 @@
       opacity: 0;
     }
   }
-  
-  
-  @keyframes wind {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100vw);
-    }
-  }
+
 }
